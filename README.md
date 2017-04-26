@@ -6,6 +6,7 @@
 		}
 	}
 	
-  	dependencies {
-	        compile 'com.github.piaofirst:DateChooseDialog:v1.0'
+  		dependencies {
+	        compile 'com.github.piaofirst:DateChooseDialog:v1.1'
 	}
+
