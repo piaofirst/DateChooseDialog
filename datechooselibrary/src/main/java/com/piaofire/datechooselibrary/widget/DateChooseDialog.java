@@ -573,6 +573,9 @@ public class DateChooseDialog extends Dialog implements View.OnClickListener {
      * 回调选中的时间（默认时间格式"yyyy-MM-dd HH:mm:ss"）
      */
     public interface DateChooseInterface {
+        /**
+         * @param time 选择的时间 根据Type格式分别为 "yyyy-MM-dd HH:mm" "yyyy-MM-dd" "MM-dd HH:mm" "yyyy-MM" "HH:mm"
+         */
         void getDateTime(String time);
     }
 
